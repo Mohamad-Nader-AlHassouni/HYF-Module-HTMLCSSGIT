@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(24,24,24);
+    font-family: 'Lato', helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: rgb(24,24,24);
+}
+.clear {clear: both;}
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: rgb(68,68,68);
+}
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: rgb(243,243,243);
+	margin: 30px auto;
+}
+/* Header */
+#header {
+	padding: 25px 45px;
+	border-bottom: 2px solid rgb(207,138,5);
+    background: rgb(213,213,213);
+    height: 180px;
+}
+#pic {
+	width: 20%;
+	float: left ;
+	margin-right: 100px;
+}
+#pic img {
+    width: 100%;
+    border-radius: 50px;
+}
+#name {
+    float: inherit;
+}
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin-top: 40px;
+}
+/* info */
+#info {
+	padding: 0 40px;
+}
+section {
+	border-top: 1px solid rgb(222,222,222);
+    padding: 20px 0 0;
+}
+.sectiontitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+    color: rgb(207,138,5);
+    margin-bottom: 20px;
+}
+.sectioncontact h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+}
+.date, .qualification {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+.keyskills, .languages {
+    list-style-type: none;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: rgb(68,68,68);
+}
+.keyskills ul li,.languages ul li {
+	margin-bottom: 3px;
+}
+/* footer */
+#footer {
+    padding: 25px 45px;
+	border-top: 2px solid rgb(207,138,5);
+    background: rgb(213,213,213);
+    display: flex;
+   justify-content:space-between;
+}
+#footer #contact i {
+    font-size: 10px;
+    width: 15px;
+    color: rgb(68,68,68);
+    margin-right: 20px; 
+  }
+  #footer #contact .fa {
+    padding: 12px;
+    font-size: 15px;
+  }
+  #footer ul {
+    list-style-type: none;
+    margin: 0px;
+  }
+  #footer #social-media a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+
+  #footer #contact a {
+    color: rgb(24,24,24);
+    text-decoration: none;
+  }
+  
+  #footer #social-media .fa {
+    padding: 10px;
+    font-size: 32px;
+    width: 25px;
+    text-decoration: none;
+    margin-right: 25px;
+    transition: all .2s ease-in-out;
+  }
+  
+  #social-media .fa:hover {
+    transform: scale(2.1);
+  }
+    
+  .fa-facebook {
+    color: rgb(66,103,178);
+  }
+    
+  .fa-twitter {
+    color: rgb(29,161,242);
+  }
+    
+  .fa-linkedin {
+    color: rgb(0,115,176)
+  }
+  
+  .fa-instagram {
+    color: rgb(184,50,143);
+  }
